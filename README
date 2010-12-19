@@ -1,0 +1,29 @@
+				[===   MooLibrary   ===]
+
+What is it?
+-----------
+
+The MooLibrary is my personal class library that I have built for Zend Framework.
+
+
+Library Components:
+-------------------
+
+  - Custom Flash Messenger (version 0.0.2): http://jamandcheese-on-phptoast.com/2009/11/03/custom-flash-messenger-for-zend-framework/
+
+
+System Requirements:
+--------------------
+
+Zend Framework 1.10 or later
+PHP5 or later
+
+Installation:
+-------------
+1. Place the files in a directory library/Moo/
+2. Add library/ directory to your include paths
+3. Register the namespace Moo with Zend_Loader_Autoloader
+
+License:
+--------
+http://jamandcheese-on-phptoast.com/code-license New BSD License
