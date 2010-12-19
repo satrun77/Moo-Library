@@ -6,7 +6,7 @@
  * @category   Moo
  * @package    Moo_View
  * @copyright  Copyright (c) 2009-2010 Mohammed Alsharaf.
- * @version    Release: 0.0.1
+ * @version    Release: 0.0.2
  * @link       http://jamandcheese-on-phptoast.com/
  */
 class Moo_View_Helper_Messenger extends Zend_View_Helper_Abstract
