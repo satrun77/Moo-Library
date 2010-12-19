@@ -6,7 +6,7 @@
  * @category   Moo
  * @package    Moo_Controller
  * @copyright  Copyright (c) 2009-2010 Mohammed Alsharaf.
- * @version    Release: 0.0.1
+ * @version    Release: 0.0.2
  * @link       http://jamandcheese-on-phptoast.com/
  */
 class Moo_Controller_Action_Helper_Messenger extends Zend_Controller_Action_Helper_Abstract
