@@ -9,15 +9,18 @@ The MooLibrary is my personal class library that I have built for Zend Framework
 Library Components:
 -------------------
 
-  - Custom Flash Messenger (version 0.0.2)
+  - Flash Messenger (version 0.0.2)
     + Link: http://jamandcheese-on-phptoast.com/2009/11/03/custom-flash-messenger-for-zend-framework/
     + Files: Controller/Action/Helper/Messenger.php
              View/Helper/Messenger.php
 
-  - Custom Image View Helper (version 0.1.0)
+  - Image View Helper (version 0.1.0)
     + Link: http://jamandcheese-on-phptoast.com/2009/10/15/image-view-helper-for-zend-framework/
     + Files: View/Helper/Html/Image.php
              View/Helper/Html/Image/ActionInterface.php
+
+  - Date View Helper (version 0.0.1)
+    + Files: View/Helper/Date.php
 
 System Requirements:
 --------------------
