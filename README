@@ -28,6 +28,11 @@ Library Components:
   - AjaxAction Action Helper (version 0.0.1)
     + Files: Controller/Action/Helper/AjaxAction.php
 
+  - Mail (version 0.1.0)
+    + Files: Mail.php
+             Mail/Resource.php
+             Mail/Resource/Default.php
+
 
 System Requirements:
 --------------------
