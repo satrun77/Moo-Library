@@ -22,6 +22,13 @@ Library Components:
   - Date View Helper (version 0.0.1)
     + Files: View/Helper/Date.php
 
+  - Page Tile Action Helper (version 0.0.1)
+    + Files: Controller/Action/Helper/PageTitle.php
+
+  - AjaxAction Action Helper (version 0.0.1)
+    + Files: Controller/Action/Helper/AjaxAction.php
+
+
 System Requirements:
 --------------------
 
