@@ -33,6 +33,8 @@ Library Components:
              Mail/Resource.php
              Mail/Resource/Default.php
 
+  - Utility (version 0.2.1)
+    + Files: Utility.php
 
 System Requirements:
 --------------------
