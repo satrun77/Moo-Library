@@ -10,7 +10,7 @@
  * @version    Release: 0.1.0
  * @link       http://jamandcheese-on-phptoast.com/
  */
-class Moo_Mail_Resource_Default implements Moo_Mail_Resource_Resource
+class Moo_Mail_Resource_Default implements Moo_Mail_Resource
 {
     private $app;
 
@@ -50,9 +50,8 @@ class Moo_Mail_Resource_Default implements Moo_Mail_Resource_Resource
 
     public function renderTemplate(array $data = array(), $template = null, $useLayout = false)
     {
-        $bootstrap = Zend_Controller_Front::getInstance()->getParam('bootstrap');
-        $view = $bootstrap->getResource('View');
-
+        $view = Moo_Application::getInstance()->getView();
+        
         // send data to view
         $view->data = $data;
 
