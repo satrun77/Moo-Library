@@ -7,7 +7,7 @@
  * @category   Moo
  * @package    Moo_Mail
  * @copyright  Copyright (c) 2009-2010 Mohammed Alsharaf.
- * @version    Release: 0.1.0
+ * @version    Release: 0.1.1
  * @link       http://jamandcheese-on-phptoast.com/
  */
 class Moo_Mail
@@ -123,7 +123,7 @@ class Moo_Mail
             'auth' => 'login',
             'username' => $this->_resource->getSmtpUser(),
             'password' => $this->_resource->getSmtpPassword());
-        $config += $this->_resource->getExtraParams();
+        $config += $this->_resource->getSmtpExtraParams();
 
         $this->transport = new Zend_Mail_Transport_Smtp($this->_resource->getSmtpHost(), $config);
         Zend_Mail::setDefaultTransport($this->transport);
