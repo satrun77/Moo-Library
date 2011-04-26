@@ -25,6 +25,13 @@ Library Components:
   - Text View Helper
     + Files: View/Helper/Text/CropSentence.php
 
+  - Table View Helper
+    + Files: View/Helper/Html/Table.php
+             View/Helper/Html/Table/RowInterface.php
+
+  - Alternate Row Class View Helper
+    + Files: View/Helper/Html/RowClass.php
+
   - Page Tile Action Helper
     + Files: Controller/Action/Helper/PageTitle.php
 
